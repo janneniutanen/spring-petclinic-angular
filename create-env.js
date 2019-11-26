@@ -8,3 +8,5 @@ const targetEnvFile = './src/environments/environment.prod.ts';
 
 writeFileSync(targetEnvFile, environmentFileContents);
 
+console.log(`Wrote the following contents to ${targetEnvFile}: \n${environmentFileContents}`);
+
